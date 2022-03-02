@@ -1,0 +1,319 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat' 'Arial' sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    width: 1200px;
+    height: 54px;
+    display: flex;
+    margin: 0 50px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header_h4 {
+    margin: 0px;
+}
+
+.header_rasm1 {
+    width: 75px;
+    height: 30px;
+    padding: 12px 0px;
+}
+
+.header_list {
+    display: flex;
+    width: 1100px;
+    height: 30px;
+    list-style: none;
+    padding: 0px;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.header_item {
+    width: 100px;
+    height: 17px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header_item1 {
+    width: 700px;
+    height: 20px;
+    padding: 5px 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.header_item2 {
+    width: 130px;
+    height: 17px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.header_button1 {
+    margin-left: 150px;
+    border-radius: 40px;
+    background-color: rgba(231, 231, 231, 1);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    border: 1px solid white;
+}
+
+.header_button {
+    border-radius: 40px;
+    background-color: rgba(231, 231, 231, 1);
+    width: 30px;
+    height: 27px;
+    text-align: center;
+    height: 30px;
+    border: 1px solid white;
+}
+
+/*header qismi tugashi*/
+
+.main {
+    width: 1300px;
+    height: 43px;
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.main_rasm1 {
+    width: 86px;
+    height: 43px;
+    margin: 0 0 0 55px;
+    display: flex;
+}
+
+.main_list {
+    width: 1250px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    font-size: 12px;
+    padding-top: 10px
+}
+
+.main_item {
+    width: 95px;
+    height: 8px;
+    padding: 10px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.main_rasm {
+    padding-left: 15px
+}
+
+/*main qismi tugadi*/
+
+.float {
+    width: 1000px;
+    height: 333px;
+    display: flex;
+    float: left;
+    margin-top: 15px;
+}
+
+.float_rasm1 {
+    display: inline;
+    margin-left: 55px;
+}
+
+
+.float_div {
+    width: 460px;
+    height: 333px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #EFF2F8;
+}
+
+.float_h3 {
+    width: 401px;
+    height: 58px;
+    display: inline-block;
+    margin: 10px 25px 16px 0;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.float_lorem {
+    width: 401px;
+    height: 50px;
+    display: inline-block;
+    line-height: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.float_h5{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+/*float qismi ortoasi*/
+.float_img_2 {
+    width: 960px;
+    height: 306px;
+    margin-top: 40px;
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.float_img_3 {
+    width: 840px;
+    height: 113px;
+    display: flex;
+}
+
+.float_img {
+    width: 450px;
+    height: 113px;
+    display: flex;
+    margin-right: 60px;
+}
+
+
+.float_img1 {
+    width: 450px;
+    height: 113px;
+    display: flex;
+}
+
+.float_img2 {
+    width: 410px;
+    height: 113px;
+    display: flex;
+    margin-right: 10px
+}
+
+.float_img3 {
+    width: 410px;
+    height: 113px;
+    display: flex;
+}
+
+.float_image {
+    width: 175px;
+    height: 113px;
+}
+
+.float_h5 {
+    width: 240px;
+    height: 65px;
+    padding: 12px 0 12px 10px;
+    margin: 0px;
+}
+
+.float_div5 {
+    padding-left: 10px;
+    width: 500px;
+    height: 70px;
+}
+
+/*float qismi tugashi*/
+
+.chap{
+    width: 209px;
+    height: 1320px;
+    margin-left: 1040px;
+    margin-top: 0px;
+}
+
+.chap_2{
+    margin: 15px auto;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.chap_img{
+    margin: 0px 0 0 0;
+}
+
+.chap_h3{
+    margin-top: 15px;
+    display: inline;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/*chap qismi tugashi*/
+
+
+
