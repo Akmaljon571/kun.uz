@@ -1,0 +1,43 @@
+.maqolalar{
+    width: 1260px;
+
+    &_list{
+        list-style: none;
+        padding-left: 0;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        &_item{
+            width: 400px;
+            height: 470px;
+            margin-bottom: 30px;
+            margin-right: 10px;
+        }
+
+        &_item:hover{
+            box-shadow: 5px 5px 15px 5px #eeeeee;
+        }
+
+        &_h5{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin: 0;
+        }
+
+        &_p{
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+}
