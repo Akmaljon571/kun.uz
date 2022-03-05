@@ -1,6 +1,13 @@
+.footer_container{
+    width: 1900px;
+    margin: 0 auto;
+    background-color: #17206A;
+}
+
 .footer{
     background-color: #1C2680;
     margin-bottom: 0; 
+    
     &_list{
         list-style: none;
         padding: 0;
@@ -34,7 +41,6 @@
 
 .footer1{
     background-color: #17206A;
-    margin-top: -20px;
     display: flex;
     justify-content:space-between;
 
@@ -63,4 +69,23 @@
             cursor: pointer;   
         }
     }
+}
+
+.input{
+    width: 600px;
+    background-color: #17206A;
+    margin: 50px auto 100px 200px;
+    padding: 18px 20px;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.input_img{
+    margin-left: 450px;
 }
